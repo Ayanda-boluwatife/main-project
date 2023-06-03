@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard{
+    display: flex;
+    width: 100%;
+}
+
+.side-bar{
+    height: 100vh;
+    width: 18%;
+    background: #FFFFFF;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.page{
+    width: 50%;
+}
+
+.logo{
+    background-color: #F8FAFC;
+    text-align: center;
+    font-family: 'Quicksand';
+    margin: 20px;
+    font-size: 25px;
+}
+
+.p-detail{
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+.p-name{
+    padding: 10px 0px;
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #F8FAFC;
+    margin:0px 20px;
+    padding: 10px;
+    /* width: fit-content; */
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.account{
+    color: rgba(0, 0, 0, 0.4);
+    padding: 40px 3px 10px 3px;
+    margin-left: 10px;
+}
+
+.profile-image{
+    cursor: pointer;
+}
+
+.menu-item{
+    padding: 8px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-item:hover{
+    color: #2563EB;
+}
+
+.dropdown-item{
+    padding: 10px 20px;
+    transition: all 400ms ease;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdown-item:hover{
+    background-color: #F8FAFC;
+}
+
+.activer{
+    background-color: #F8FAFC;
+}
+
+.dropdown-content{
+    background-color: #fdfdfd;
+    transition: all 400ms ease;
+}
+
+.dropdown-icon{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.custom-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.active{
+    color: #2563EB;
+}
