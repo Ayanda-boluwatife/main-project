@@ -61,3 +61,13 @@ input[type="search"]::-webkit-search-cancel-button {
     height: 50px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 950px) {
+    .profile{
+        gap: 5px;
+    }
+
+    .search{
+        width: 60%;
+    }
+}

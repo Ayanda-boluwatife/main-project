@@ -7,38 +7,38 @@ const MainDashboard = () => {
       <div className="table-head">
         <table>
           <tr>
-              <th>Owner image</th>
+              <th>Owner-Info</th>
               <th>Email</th>
               <th>Phone-number</th>
               <th>Address</th>
           </tr>
           <tr>
-              <td><img src="/images/1.png" alt="" /> <span>John Doe</span></td>
+              <td><div className='user-info'><img src="/images/1.png" alt="" /> <span>John Doe</span></div></td>
               <td>johndoe@gmail.com</td>
               <td>091987654321</td>
               <td>58 Asa-dam Road</td>
           </tr>
           <tr>
-              <td><img src="/images/2.png" alt="" /> <span>Sarah Dimmesk</span></td>
+              <td><div className='user-info'><img src="/images/2.png" alt="" /> <span>Sarah Dimmesk</span></div></td>
               <td>sarahdimmesk@gmail.com</td>
               <td>091987654321</td> 
               <td>58 Asa-dam Road</td>
           </tr>
           <tr>
-              <td><img src="/images/3.png" alt="" /></td>
-              <td>johndoe@gmail.com</td>
+              <td><div className='user-info'><img src="/images/3.png" alt="" /> <span>Gabriel Kotesky</span></div></td>
+              <td>gabriel@gmail.com</td>
               <td>091987654321</td>
               <td>58 Asa-dam Road</td>
           </tr>
           <tr>
-              <td><img src="/images/4.png" alt="" /></td>
-              <td>johndoe@gmail.com</td>
+              <td><div className='user-info'><img src="/images/4.png" alt="" /> <span>Katrina Johnson</span></div></td>
+              <td>katrina@gmail.com</td>
               <td>091987654321</td>
               <td>58 Asa-dam Road</td>
           </tr>
           <tr>
-              <td><img src="/images/5.png" alt="" /></td>
-              <td>johndoe@gmail.com</td>
+              <td><div className='user-info'><img src="/images/5.png" alt="" /> <span>James Berry</span></div></td>
+              <td>james@gmail.com</td>
               <td>091987654321</td>
               <td>58 Asa-dam Road</td>
           </tr>

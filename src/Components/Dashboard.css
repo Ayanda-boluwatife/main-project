@@ -18,3 +18,38 @@ section{
     width: 100%;
     padding-left: 280px;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: #2563EB;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.btn svg{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .side{
+        display: none;
+    }
+
+    .main{
+        padding-left: 0;
+        padding: 20px;
+    }
+}

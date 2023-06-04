@@ -52,7 +52,27 @@ table tr td img:hover{
     transition: all .5s ease;
 }
 
+td{
+    font-weight: 500;
+}
+
 td:hover{
     cursor: pointer;
     font-weight: 500;
+}
+
+.user-info span{
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+    .user-info span{
+        display: none;
+    }
 }
