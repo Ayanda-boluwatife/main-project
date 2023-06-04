@@ -11,8 +11,10 @@ section{
 
 .side{
     width: 20%;
+    position: fixed;
 }
 
 .main{
-    width: 80%;
+    width: 100%;
+    padding-left: 280px;
 }
