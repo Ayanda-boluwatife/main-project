@@ -37,6 +37,12 @@ section{
     color: #fff;
     display: flex;
     align-items: center;
+    transition: all 400ms ease;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    transition: all 400ms ease;
 }
 
 .btn svg{
