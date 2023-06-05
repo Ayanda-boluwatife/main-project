@@ -37,6 +37,11 @@
     padding: 10px 0px;
 }
 
+a{
+    color: #000;
+    text-decoration: none;
+}
+
 .title{
     color: rgba(0, 0, 0, 0.5);
     background-color: #F8FAFC;

@@ -1,0 +1,75 @@
+.border-all{
+    padding: 30px;
+    border: 1px solid #000;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input{
+    width: 100%;
+    padding: 15px;
+    outline-color: #2563EB;
+}
+
+.top{
+    padding-top: 20px;
+}
+
+.btn-group button{
+    padding: 15px 30px;
+    background-color: #2563EB;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.width{
+    width: 100%;
+}
+
+.width-70{
+    width: 70%;
+}
+
+form .flex{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.flex{
+    width: 100%;
+}
+
+.flex-no-gap{
+    display: flex;
+    gap: 5px;
+    width: 60%;
+}
+
+label{
+    font-weight: 500;
+}
+
+.verify-btn button{
+    padding: 15px 30px;
+    background-color: #2563EB;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}

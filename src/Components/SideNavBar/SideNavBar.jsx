@@ -62,9 +62,11 @@ const SideNavBar = () => {
               </div>
             </div>
           )}
-          <div className={`menu-item ${isActive("/profile")}`} onClick={() => handleMenuItemClick("/profile")}>
-            <span><CgProfile /></span> Profile
-          </div>
+          <a href="/profile">
+            <div className={`menu-item ${isActive("/profile")}`} onClick={() => handleMenuItemClick("/profile")}>
+              <span><CgProfile /></span> Profile
+            </div>
+          </a>
           <div className={`menu-item ${isActive("/business")}`} onClick={() => handleMenuItemClick("/business")}>
             <span><GrDocumentVerified /></span> Business Detail
           </div>
