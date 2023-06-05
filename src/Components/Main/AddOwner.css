@@ -19,8 +19,16 @@ form{
     width: 100%;
 }
 
-.row-one{
+.row-one input, .row-three input{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 3rem;
+    width: 100%;
+}
+
+.row-two input{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 3rem;
+    width: 100%;
 }
