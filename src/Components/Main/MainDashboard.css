@@ -10,9 +10,11 @@ table{
     text-transform: capitalize;
     width: 100%;
     transition: all 1s ease;
+    border-collapse: collapse;
 }
 th,td{
-    padding: 10px 0;
+    padding: 10px 10px;
+    margin-top: 10px;
 }
 table tr th:nth-of-type(1){
     width: 38%;
@@ -52,15 +54,6 @@ table tr td img:hover{
     transition: all .5s ease;
 }
 
-td{
-    font-weight: 500;
-}
-
-td:hover{
-    cursor: pointer;
-    font-weight: 500;
-}
-
 .user-info span{
     font-weight: 500;
     margin-left: 20px;
@@ -69,6 +62,11 @@ td:hover{
 .user-info{
     display: flex;
     align-items: center;
+}
+
+.border{
+    padding: 8px 10px;
+    /* background-color: bisque; */
 }
 
 @media screen and (max-width: 950px) {

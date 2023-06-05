@@ -19,7 +19,7 @@ const DashBoard = () => {
                 <p>Add co-founders or partners to the platform</p>
               </div>
               <div className="right">
-                <a href="." className="btn">
+                <a href="/add-owner" className="btn">
                   <BsPlus />
                   Add Owner
                 </a>

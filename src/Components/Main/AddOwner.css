@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    padding-left: 280px;
+}
+
+form{
+    width: 100%;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row-one{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 3rem;
+}

@@ -15,6 +15,7 @@ section{
     border: none;
     outline: none;
     outline-color: transparent;
+    width: 100%;
 }
 
 .search{
