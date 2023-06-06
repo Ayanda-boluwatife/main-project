@@ -87,6 +87,11 @@ a{
     gap: 10px;
 }
 
+.flexing{
+    display: flex;
+    align-items: center;
+}
+
 .dropdown-item:hover{
     background-color: #F8FAFC;
 }

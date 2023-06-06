@@ -43,8 +43,13 @@ const SideNavBar = () => {
 
         <p className="account">ACCOUNT</p>
         <div className="custom-menu">
-          <div className={`menu-item ${isActive("/compliance")}`} onClick={handleDropdownClick}>
-            <span><GrProjects /></span> Compliance <span className="dropdown-icon"><MdKeyboardArrowDown /></span>
+          <div className="flexing">
+            <a href="/">
+              <div className={`menu-item ${isActive("/compliance")}`} >
+                <span><GrProjects /></span> Compliance 
+              </div>
+            </a>
+            <span className="dropdown-icon" onClick={handleDropdownClick}><MdKeyboardArrowDown /></span>
           </div>
           {showDropdown && (
             <div className="dropdown-content">
@@ -70,9 +75,11 @@ const SideNavBar = () => {
           <div className={`menu-item ${isActive("/business")}`} onClick={() => handleMenuItemClick("/business")}>
             <span><GrDocumentVerified /></span> Business Detail
           </div>
-          <div className={`menu-item ${isActive("/team")}`} onClick={() => handleMenuItemClick("/team")}>
-            <span><GrGroup /></span> Team
-          </div>
+          <a href="/add-team">
+            <div className={`menu-item ${isActive("/team")}`} onClick={() => handleMenuItemClick("/team")}>
+              <span><GrGroup /></span> Team
+            </div>
+          </a>
           <div className={`menu-item ${isActive("/setting")}`} onClick={() => handleMenuItemClick("/setting")}>
             <span><AiOutlineSetting /></span> Settings
           </div>
